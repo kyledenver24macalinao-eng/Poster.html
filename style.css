@@ -1,0 +1,56 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    /* Added a clearer background color + subtle gradient */
+    background: #3498db;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.poster {
+    width: 500px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    padding: 25px;
+    text-align: center;
+}
+
+.poster h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.poster h2 {
+    color: #3498db;
+    margin-top: 0;
+}
+
+.poster p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.tips {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.tips li {
+    margin: 8px 0;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+.highlight {
+    color: #e74c3c;
+    font-weight: bold;
+}
